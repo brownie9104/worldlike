@@ -21,7 +21,7 @@ public class CharacterMove : MonoBehaviour
             y = MoveSpeed;
         if (Input.GetKey(KeyCode.DownArrow))
             y = -MoveSpeed;
-
+        //test
         if (x != 0 && y != 0)
         {
             x *= 0.7f;
